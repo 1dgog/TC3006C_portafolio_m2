@@ -64,9 +64,39 @@ Matriz de confusión para test 3
  
  El método de aprendizaje utilizado son redes neuronales. Se estudian los puntajes (scores) de las redes neuronales iniciando con 5 capas ocultas hasta 40, lo cual se hace con un ciclo for, que repite este proceso. Debido a que se obtienen los puntajes y matrices de confusión en un solo grupo de for loops, la sección de Obtención de Scores y matrices de confusión tarda un poco para ejecutar.
 
-## Puntajes (scores)
+### Puntajes (scores)
 
 Se hace una visualización del cambio en los puntajes, en donde conforme se cambio el número de capas ocultas y sus unidades (de 5 a 40 con un paso de 5 tanto para las capas como para las unidades), se observa que el puntaje aumenta de casi 40% hasta casi 100% para train, y se presenta algo similar para test.
+
+Se presentan ahora los scores:
+
+#### Para train
+
+[[0.69172932 0.37593985 0.37593985 0.37593985 0.37593985 0.37593985
+  0.37593985]
+ [0.37593985 0.9924812  0.9924812  0.37593985 0.9924812  0.9924812
+  0.9924812 ]
+ [0.9924812  0.9924812  0.9924812  0.9924812  0.9924812  0.9924812
+  0.37593985]
+ [0.9924812  0.9924812  0.9924812  0.9924812  0.37593985 0.9924812
+  0.37593985]
+ [1.         0.9924812  0.9924812  0.9924812  0.9924812  0.9924812
+  0.37593985]
+ [0.37593985 1.         0.9924812  0.9924812  0.9924812  0.9924812
+  0.9924812 ]]
+#### Para test
+[[0.75555556 0.46666667 0.46666667 0.46666667 0.46666667 0.46666667
+  0.46666667]
+ [0.46666667 0.95555556 0.93333333 0.46666667 0.95555556 0.93333333
+  0.93333333]
+ [0.93333333 0.93333333 0.93333333 0.95555556 0.95555556 0.95555556
+  0.46666667]
+ [0.93333333 0.93333333 0.93333333 0.93333333 0.46666667 0.93333333
+  0.46666667]
+ [0.93333333 0.95555556 0.93333333 0.93333333 0.95555556 0.95555556
+  0.46666667]
+ [0.46666667 0.93333333 0.95555556 0.95555556 0.95555556 0.95555556
+  0.95555556]]
 
 ### Matrices de confusión
 
