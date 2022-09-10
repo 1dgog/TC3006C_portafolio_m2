@@ -61,3 +61,7 @@ Matriz de confusión para test 3
  [ 0  0  0]]
  
  ## Con Framework
+ 
+ El método de aprendizaje utilizado son redes neuronales. Se estudian los puntajes (scores) de las redes neuronales iniciando con 5 capas ocultas hasta 40, lo cual se hace con un ciclo for, que repite este proceso.
+ 
+ 
